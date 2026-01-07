@@ -5,8 +5,9 @@ Intended to be used while some apps are in a "not quite finished state".
 ### Usage
 
 1. Update the index.html to point to the domain you want to redirect to.
-2. Add/Update the CNAME record for this page (micro-redirect.materialscloud-org.github.io.)
-3. When the app is ready, change the CNAME record to point to the new address.
+2. Add/Update the CNAME record for this page (materialscloud-org.github.io.)
+3. Update the `Custom Domain` field inside Settings/pages.
+4. When the app is ready, change the CNAME record to point to the new address and remove the Custom domain here.
 
 ### Example
 Redirecting the preserved SSSP url (sssp.materialscloud.org to https://www.materialscloud.org/discover/sssp)
